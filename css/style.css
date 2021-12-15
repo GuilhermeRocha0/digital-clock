@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 9, 20, 0.877);
+}
+
+
+.clock {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: solid rgb(8, 106, 241);
+    font: normal 60px 'sans-serif';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.showTime {
+    font-size: 45px;
+    padding: 0 5px;
+    margin-top: 8px;
+}
